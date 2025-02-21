@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    flex: 1; /* Pushes footer down */
+    padding: 50px; /* Adds space inside */
+    background-color: #ffffff; /* White background */
+    border: 3px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin: 20px auto; /* Center it */
+    max-width: 80%; /* Limit width */
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

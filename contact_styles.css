@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 50%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+h2, h3 {
+    color: #1e88e5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #90caf9;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1e88e5;
+    box-shadow: 0px 0px 5px #1e88e5;
+}
+
+/* Button */
+button {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Contact List */
+#contactList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    background: #bbdefb;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.edit, .delete {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: #0288d1;
+    color: white;
+}
+
+.delete {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.edit:hover {
+    background-color: #01579b;
+}
+
+.delete:hover {
+    background-color: #b71c1c;
+}
+
+/* Search Box */
+#search {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #90caf9;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
